@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.greska {
+    border: 2px solid red;
+   
+}
+
+.ispisGresaka .sakrij {
+    display: none;
+}
+
+.prikaz {
+    display: block;
+    font-size: 0.875rem;
+    width: 250px;
+    height:auto;
+    color:red;
+   
+}
+.prikaz2 {
+    display: block;
+    font-size: 0.875rem;
+    width: 245px;
+    color:green;
+
+}
+#padajucaLista {
+    width:90%;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    padding-top: 0.775rem;
+    padding-bottom: 0.775rem
+}
+
+#ispis {
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+}
+
+input[name='rbPol'] {
+   margin: 5px 5px;
+  }
+.form-check {
+    padding-left: 0px !important;
+}
+input[name='cbBlock'] {
+    margin: 5px 5px !important; 
+}
+#authorCont {
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 200px 0px;
+}
+#blok2 {position: relative;
+    lefT: 15%;
+}
+#poljeEmail {
+     width: 450px;
+}
+#btnPolje{
+    width:150px !important;
+    height:45px;
+}
+#newsGreska{
+    width:400px;
+}
+.mySlides {
+    display: none;
+    padding: 2rem 5rem 0 5rem;
+    text-align: center;
+}
+
+.slajdovi {
+    min-height: 5rem;
+    padding: 35px;
+    border: 5px solid #00dabe;
+}
+.slajdovi p {
+    font-size: 22px;
+    padding: 25px;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 35%;
+    width: auto;
+    padding: 15px;
+    color: #2b8f7a;
+    font-weight: bold;
+    font-size: 45px;
+    transition: 0.4s;
+}
+.next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px;
+}
+.prev:hover, .next:hover {
+    color: #ffffff;
+}
+.aktivno {
+    background-color: black;
+}
+/*.slajdPrikazi {
+    display: block;
+}
+.slajdSakrij {
+    display: none;
+}*/
+#brojac {
+    position: relative;
+    left: 92%;
+}
+.testimonials {
+    float: left;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transition-timing-function: ease-out;
+    -o-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    pointer-events: none;
+    -webkit-transition-property: opacity;
+    -o-transition-property: opacity;
+    transition-property: opacity;
+    pointer-events: none;
+    z-index: 1;
+    -webkit-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0;
+    width: 100%;
+    height: 100%;
+}
